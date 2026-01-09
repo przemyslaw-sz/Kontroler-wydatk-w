@@ -22,7 +22,7 @@ while True:
         print(wydatki)
     elif wybor == '3':
         suma = sum(slownik.get('Cena: ', 0.0) for slownik in wydatki)
-        print('Kwota Twoich wydatków wynosi: ' + suma)
+        print(suma)
     elif wybor == '4':
         print('Koniec dodawania')
         break
